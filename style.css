@@ -1,0 +1,108 @@
+/*
+  Nevis Macintyre
+
+  Personal profile page and portfolio
+  
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+:root{
+  --dg: #444444;
+  --w: #ffffff;
+  --b: #000000;
+  --g: #747474;
+  --p: #2b1843;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    background-color: var(--dg);
+    max-width: 1200px;
+  }
+  
+  #navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+  } 
+
+  .navLink{  
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+    background-color:var(--b);
+    color: var(--w);
+
+    padding: 15px;
+    border: 3px solid var(--b);
+  
+  }
+  
+  .navLink:hover{  
+      background-color: var(--p);
+      color: var(--w);
+      
+      border: 3px solid var(--b);
+  }
+
+  .header {
+    text-align: center;
+    background-color: var(--w);
+    padding: 10px;
+    border-bottom: 10px solid var(--w);
+    border-radius: 2px;
+    margin-top: 20px;
+
+  }
+
+  .main{
+    display: flex;
+    align-items: top;
+    margin-top: 10px;
+    background-color: var(--g);
+    padding:10px;
+    border-radius: 2px;
+
+
+  }
+
+  .frame{
+    border: 10px solid var(--w);
+    align-self: baseline;
+    border-radius: 3px;
+    margin: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: var(--dg);
+    flex: 25%;
+  }
+  .content {
+    background-color: var(--w);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px;
+    flex:75%;
+  }
+
+  .text{
+    background-color: var(--g);
+    margin: 5px;
+    padding: 10px;
+    border-radius: 1.5px;
+    border: 3px solid var(--p);
+  }
+  .container{
+    display: flex;
+    
+  }
