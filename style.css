@@ -17,13 +17,22 @@
   --p: #2b1843;
 }
 
-@media screen and (max-width: 750px) {
+@media Screen and (max-width: 700px) {
   #navbar, .main {   
     flex-direction: column;
   }
   .container{
     align-self: center;
   }
+}
+
+@media  screen and (max-width: 1100px) {
+.main2{
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+  
 }
 
 body {
@@ -85,9 +94,19 @@ body {
 
   }
 
+  .main2{
+    display: flex;
+    margin-top: 10px;
+    background-color: var(--g);
+    padding:10px;
+    border-radius: 2px;
+
+
+  }
+
   .frame{
     border: 10px solid var(--w);
-    
+    align-self: baseline;
     border-radius: 3px;
     margin: 5px;
     padding-top: 5px;
@@ -100,7 +119,6 @@ body {
 
   .frame2{
     border: 10px solid var(--w);
-    align-self: center;
     border-radius: 3px;
     margin: 5px;
     padding-top: 5px;
@@ -130,7 +148,7 @@ body {
 
   .container{
     display: flex;
-    align-content: flex-end;
+    
     border-top: 3px solid var(--g);
   }
 
