@@ -38,11 +38,12 @@ body {
     margin: 0 auto;
     background-color: var(--dg);
     max-width: 1200px;
+    min-width: 450px;
   }
   
   #navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-right: 10px;
     padding-left: 10px;
@@ -68,6 +69,10 @@ body {
       color: var(--w);
       
       border: 3px solid var(--b);
+  }
+
+  .logo{
+    max-width: 60px;
   }
 
   .header {
@@ -124,9 +129,8 @@ body {
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
     background-color: var(--p);
-    flex: 25%;
   }
 
   .content {
@@ -154,6 +158,7 @@ body {
 
   .container2{
     display: flex;
+    justify-content: space-around;
     border-top: 3px solid var(--g);
     flex-wrap: wrap;
   }
@@ -172,6 +177,5 @@ body {
   }
 
   img{
-    max-width: 375px;
-
+    max-width: 400px;
   }
