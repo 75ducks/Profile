@@ -17,9 +17,9 @@
   --p: #2b1843;
 }
 
-@media Screen and (max-width: 700px) {
+@media Screen and (max-width: 850px) {
   #navbar, .main {   
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .container{
     align-self: center;
@@ -29,8 +29,6 @@
 @media  screen and (max-width: 1100px) {
 .main2{
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
 }
   
 }
@@ -118,6 +116,8 @@ body {
   }
 
   .frame2{
+    display:flex;
+    align-items: center;
     border: 10px solid var(--w);
     border-radius: 3px;
     margin: 5px;
@@ -169,4 +169,9 @@ body {
   }
   a:link{
     color: var(--w);
+  }
+
+  img{
+    max-width: 375px;
+
   }
