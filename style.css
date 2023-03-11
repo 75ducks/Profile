@@ -164,19 +164,40 @@ body {
     flex-wrap: wrap;
   }
 
-  .footer{
+  footer{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     background-color: var(--p);
     color: var(--w);
     padding: 5px;
     margin-bottom: 5px;
     text-decoration: none;
+    border-radius: 2px;
   }
   a:link{
+    color: var(--w);
+  }
+  a:visited{
     color: var(--w);
   }
 
   img{
     max-width: 400px;
+  }
+  #profileEmail{
+    color: var(--b)
+  }
+  .list{
+    display: flex;
+   justify-content: center;
+  }
+  .resume{
+    background-color: var(--w);
+    margin: 5px;
+    padding: 40px;
+    border-radius: 1.5px;
+    border: 3px solid var(--b);
+  }
+  .resSec{
+    color: var(--p)
   }
